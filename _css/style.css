@@ -496,7 +496,7 @@ html,body{
     border: none;
     background-color: var(--color-five);
     border-radius: 5px;
-    width: 220px;    
+    width: 100%;    
     outline: none;
 }
 .form__input--tel{
@@ -515,8 +515,8 @@ html,body{
 .form__link{
     max-width: 130px;
     padding: 7px 31px ;
-    color: var(--color-fourth);
-    background-color: var(--color-seventh);
+    color: var(--color-primary);
+    background-color: var(--color-fourth);
     display: block;
     text-align: center;
     border-radius: 5px;
@@ -613,13 +613,14 @@ html,body{
         margin-top: 7vh;
     }
     .about{
-        text-align: center;        
+        text-align: center;                
     }
     .about-img{    
-        width: 100%;        
+        width: 100%;      
+        margin: auto;        
     }
     .about-img img{
-        margin: auto;
+        margin: auto;              
     }
     .about__description{
         margin-top: 2vh;
@@ -630,6 +631,7 @@ html,body{
     .form{
         width: 50%;
     }
+    
     #contact{         
         padding-bottom: 8vh;
     }
@@ -660,11 +662,9 @@ html,body{
         display: block;
     }
 }
-@media only screen and (max-width:500px){
-   
+@media only screen and (max-width:550px){   
     .hero-info__title{
-        font-size: 2em;
-       
+        font-size: 2em;       
     }
     .hero-info__text{
         font-size: 14px;
