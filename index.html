@@ -63,12 +63,12 @@
 
             <section>                
                 <div class="diagnosis center">
-                    <div class="diagnosis__info">
+                    <div class="diagnosis__info" data-anime="left">
                         <h3 class="diagnosis__title">Diagnostico</h3>
                         <p class="diagnosis__text">O processo de diagnóstico é realizado através dos nossos técnicos altamente treinados e capacitados com uma vasta experiencia no ramo de manutenção, algumas etapas do diagnóstico, identificação do defeito, resolução do defeito, teste funcional... e feedback para o cliente.
                         </p>
                     </div>
-                         <img class="diagnosis__img"src="_img/diagnosis.jpg" alt="">
+                         <img class="diagnosis__img"src="_img/diagnosis.jpg" alt="imagem de diagnostico" data-anime="right">
                 </div>  
                 <img src="_img/wave.svg" alt="">              
             </section>
@@ -79,7 +79,7 @@
                     <p class="contain__text">Oferecemos assistência técnica multimarcas,
                         especializada em eletrodomésticos e <br>eletrônicos.</p>
 
-            <div class="contain-slider">                
+            <div class="contain-slider" data-anime="center">                
                 <div class="contain-gallery">
                     <article>
                         <img class="contain-gallery__img" src="_img/microondas.jpg" alt="">                        
@@ -131,7 +131,7 @@
                 
                 <h3 class="products__title contain__title--blue">Produtos vendidos na Loja</h3>                    
 
-                <div class="products-gallery center">
+                <div class="products-gallery center" data-anime="center">
                     <article>
                         <img class="products-gallery__img" src="_img/carregador.jpg" alt="">
                         <h4 class="products-gallery__title">Carregador</h4>                        
@@ -174,15 +174,15 @@
                 </div>
             </section>
 
-            <section id="about">
+            <section id="about" >
                 <h3 class="about__title">Sobre</h3>
 
                     <div class="about">
-                        <div class="about-img">
+                        <div class="about-img" data-anime="left">
                             <img src="_img/capa.jpg" alt="">
                         </div>
 
-                        <div class="about__description">
+                        <div class="about__description" data-anime="right">
                             <h4 class="about__subtitle">Conheça a <span class="about__logo">Eletrônica</span> <span class="about__subtitle-logo">Jaclesom</span></h4>
                             <p class="about__text">
                                 Fundada em meados de 1982, por Jaime Ribeiro, que a sua época, formado em eletrônica viu grande expectativa no mercado de manutenção de eletrônicos em expansão naquele período. Passado alguns anos, seu genro Claudio José iniciou sua carreira acadêmica em eletrônica, se aperfeiçoando na área e logo sendo convidado a se tornar sócio da empresa. Desde a fundação, a empresa está localizada no mesmo endereço Rua Dr José Valdir Carrara, 312 Jardim Palmira – Guarulhos. Com o falecimento do pioneiro Jaime Ribeiro em meados de 1992, Cláudio lidera a empresa que tem tradição e confiabilidade na região a mais de 34 anos.
@@ -194,7 +194,7 @@
             <section id="location">
                 <h3 class="location__title">Localização</h3>
                 
-                    <div class="location__maps">
+                    <div class="location__maps" data-anime="center">
                         <iframe src="https://www.google.com/maps/embed?pb=!1m26!1m12!1m3!1d117113.1131784575!2d-46.68157637786365!3d-23.468226261599003!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m11!3e6!4m3!3m2!1d-23.471521499999998!2d-46.660879!4m5!1s0x94cef45c8de0f29f%3A0xd6ba82be1a533b21!2sEletr%C3%B4nica%20Jacle%20Som%20-%20R.%20Dr.%20Jos%C3%A9%20Waldir%20Carrara%2C%20312%20-%20Jardim%20Palmira%2C%20Guarulhos%20-%20SP%2C%2007076-041!3m2!1d-23.4319947!2d-46.562722699999995!5e0!3m2!1spt-BR!2sbr!4v1635288758757!5m2!1spt-BR!2sbr"style="border:0;" allowfullscreen="" loading="lazy"></iframe>
                         
                     </div>
@@ -204,7 +204,7 @@
                     <h3 class="contact__title">Contato</h3>
 
                     <div class="box-contact">                                      
-                        <form  class="form" action="https://formspree.io/f/xbjwrgwl" method="POST">
+                        <form  class="form" action="https://formspree.io/f/xbjwrgwl" method="POST" data-anime="left">
                                 <h4 class="form__title">Dúvidas</h4>
                                 <div class="form-box">
                                     <label for="nome" class="form__label">Nome:</label>
@@ -230,7 +230,7 @@
                                 
                         </form>   
                         
-                        <div class="info-contact info-contact--line">
+                        <div class="info-contact info-contact--line" data-anime="right">
                             <h4 class="info-contact__title">Contato</h4>
 
                             <div class="info-contact">
@@ -284,5 +284,6 @@
     <script type="text/javascript" src="_js/slider.js"></script>  
     <script type="text/javascript" src="_js/scroll.js"></script>
     <script type="text/javascript" src="_js/menu.js"></script> 
+    <script type="text/javascript" src="_js/animation.js"></script> 
 </body>
 </html>

@@ -228,7 +228,7 @@ html,body{
 
     display: flex;    
     justify-content: space-between;    
-    padding-top: 50px;
+    padding: 50px 15px 0;
     
 }
 .diagnosis__info{   
@@ -261,9 +261,8 @@ html,body{
     border-bottom: 1px solid var(--color-primary);
     
 }
-.contain-slider{
-    margin-top: 5vh;
-    margin-bottom: 15vh; 
+.contain-slider{    
+    margin: 5vh 1rem 15vh 1rem;
 }
 .contain__title--blue{
     color: var(--color-primary);
@@ -410,8 +409,8 @@ html,body{
     color: var(--color-second);
     text-shadow: 0 1px 2px var(--color-third);   
 }
-.about__text{
-    margin-top: 17px;    
+.about__text{   
+    padding: 15px;   
 }
 
 /*====location====*/
@@ -582,7 +581,7 @@ html,body{
     text-align: center;    
 }
 
-@media only screen and (max-width:880px){
+@media only screen and (max-width:1024px){
     .menu{     
         width: 300px;             
     }
@@ -752,5 +751,21 @@ html,body{
     }
     
 }
-
-
+/*animação de section com scroll*/
+[data-anime]{
+    opacity: 0;
+    transition: all .3s linear;
+}
+[data-anime="left"]{
+    transform: translate3d(-100px, 0, 0);    
+}
+[data-anime="right"]{
+    transform: translate3d(100px, 0, 0);
+}
+[data-anime="center"]{
+    transform: translate3d(0, 0, 0);
+}
+[data-anime].animate{
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+}
