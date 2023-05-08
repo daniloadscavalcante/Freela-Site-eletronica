@@ -25,6 +25,7 @@
 - HTML 
 - CSS
 - JS
+- Lib slick
 
 #### Ferramentas
 - [**VS CODE**]()
