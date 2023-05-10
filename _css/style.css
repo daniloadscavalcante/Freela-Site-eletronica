@@ -493,7 +493,9 @@ html,body{
     text-shadow: 0 1px 2px var(--color-third);   
 }
 .about__text{   
-    padding: 15px;   
+    padding: 15px 0;   
+    font-size: 15px;
+    line-height: 1.4;
 }
 
 /*====location====*/
@@ -826,6 +828,12 @@ html,body{
     }
     .about__text{
         text-align: justify;        
+    }
+    .slick-next{
+        right: -40px;
+    }
+    .slick-prev{
+        left: -40px;
     }
    
 }
