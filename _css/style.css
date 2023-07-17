@@ -35,6 +35,7 @@
     z-index: 999;
     color: var(--color-second);
     cursor: pointer;
+    user-select: none;
 }
 .modal h3{
     text-align: center;
@@ -249,7 +250,7 @@ html,body{
     cursor: pointer;    
 }
 .close:hover{
-    transform: rotateX(180deg);
+    color: yellow;
     transition: all 1s linear;
 }
 /*====Hero====*/
@@ -577,8 +578,7 @@ html,body{
     font-size: 14px;
     font-family: roboto;
     padding: 5px;
-    border: none;
-    background-color: var(--color-five);
+    border: none;    
     border-radius: 5px;
     width: 100%;    
     outline: none;
@@ -588,8 +588,7 @@ html,body{
 }
 .form__textarea{
     width: 100%;
-    height: 112px;
-    background-color: var(--color-five);
+    height: 112px;    
     border-radius: 5px;
     padding: 5px;
     resize: none;
@@ -714,10 +713,13 @@ html,body{
     }
     .form{
         width: 50%;
-    }
-    
+    }    
     #contact{         
         padding-bottom: 8vh;
+    }
+    .bloco-texto .btn{
+        padding: 4px;
+        font-size: 11px;
     }
 }
 @media only screen and (max-width:768px){
@@ -753,12 +755,13 @@ html,body{
         font-size: 12px;
     }
     .bloco-texto .btn{
-        padding: 6px;
-        font-size: 11px;
+        padding: 10px;
+        font-size: 12px;
     }
     .slick-initialized .slick-slide{
         margin: 0 5px;
     }
+    
 }
 @media only screen and (max-width:550px){   
     .hero-info__title{

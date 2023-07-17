@@ -13,7 +13,7 @@ if (window.innerWidth <= 550){
     $('.slide-ofertas').slick({
         slidesToShow: 3,
         slidesToScroll: 1,
-        autoplay: true,
+        autoplay: false,
         autoplaySpeed: 2000,
       });
     
